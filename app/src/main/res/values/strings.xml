@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">郭杰2024110107</string>
+
+    <!-- MainActivity 按钮 -->
+    <string name="btn_task1">任务1：正向传参</string>
+    <string name="btn_task2">任务2：返回数据</string>
+    <string name="btn_task3">任务3：相机拍照</string>
+    <string name="btn_task4">任务4：秒表计时</string>
+    <string name="tv_result_label">返回结果：</string>
+    <string name="tv_result_default">（暂无返回数据）</string>
+
+    <!-- 子任务1：正向传参 -->
+    <string name="forward_param_key">forward_param</string>
+    <string name="forward_param_value">这是从MainActivity传递过来的参数：郭杰2024110107</string>
+    <string name="tv_received_param_label">接收到的参数：</string>
+
+    <!-- 子任务2：返回数据 -->
+    <string name="return_data_key">return_data</string>
+    <string name="et_input_hint">请输入要返回的内容</string>
+    <string name="btn_confirm">确认返回</string>
+
+    <!-- 子任务3：相机拍照 -->
+    <string name="btn_take_photo">拍照</string>
+    <string name="tv_photo_preview_label">照片预览：</string>
+    <string name="camera_permission_rationale">需要相机权限才能拍照</string>
+    <string name="tv_no_photo">暂无照片</string>
+    <string name="permission_denied">相机权限被拒绝，无法拍照</string>
+    <string name="camera_unavailable">未找到可用的相机应用</string>
+    <string name="photo_prefix">IMG_</string>
+    <string name="photo_suffix">.jpg</string>
+
+    <!-- 子任务4：秒表 -->
+    <string name="btn_start">开始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_reset">重置</string>
+    <string name="tv_stopwatch_default">00:00.0</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/bg_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnTask1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_task1"
+        android:backgroundTint="@color/btn_task1_bg"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTask2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_task2"
+        android:backgroundTint="@color/btn_task2_bg"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTask3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_task3"
+        android:backgroundTint="@color/btn_task3_bg"
+        android:textColor="@color/black"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnTask4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_task4"
+        android:backgroundTint="@color/btn_task4_bg"
+        android:textColor="@color/black"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvResultLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_result_label"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_result_default"
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+</LinearLayout>
